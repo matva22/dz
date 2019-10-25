@@ -1,0 +1,7 @@
+C:\Users\матвей\source\repos\3v11\3v11\bin\Debug\3v11.exe.config
+C:\Users\матвей\source\repos\3v11\3v11\bin\Debug\3v11.exe
+C:\Users\матвей\source\repos\3v11\3v11\bin\Debug\3v11.pdb
+C:\Users\матвей\source\repos\3v11\3v11\obj\Debug\3v11.csprojAssemblyReference.cache
+C:\Users\матвей\source\repos\3v11\3v11\obj\Debug\3v11.csproj.CoreCompileInputs.cache
+C:\Users\матвей\source\repos\3v11\3v11\obj\Debug\3v11.exe
+C:\Users\матвей\source\repos\3v11\3v11\obj\Debug\3v11.pdb
