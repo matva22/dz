@@ -8,51 +8,63 @@ namespace _3v11
 {
     class Program
     {
+
+
+
+
+
+
+
         static void Main(string[] args)
         {
-            PerimitrPloshadPloshadOkr();
-            
-        }
-        
-        public static void PerimitrPloshadPloshadOkr()
-        {
-            
             Console.WriteLine("Введите чему равна сторона a");
-            var x = Convert.ToDouble(Console.ReadLine());
+            var x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите чему равна сторона б");
-            var v = Convert.ToDouble(Console.ReadLine());
+            var v = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите чему равна сторона с");
-            var c = Convert.ToDouble(Console.ReadLine());
+            var c = Convert.ToInt32(Console.ReadLine());           
             if ((x > 0) && (v > 0) && (c > 0) && (x + v > c) && (v + c > x) && (c + x > v))
-            { 
-                double per = x + c + v;                
-                double plo;
-                double p = ((v + c + x) / 2);
-                double ploshad1 = (p * (p - x) * (p - v) * (p - c));               
-                plo = Math.Sqrt(ploshad1);                
-                double radius = ((p - x) * (p - v) * (p - c) / p);
-                double PloshadTreugSOkrug =per/4*radius;
+            {
 
-
-
-
-
-                Console.WriteLine($"Перимитр равен"+ per);
-                Console.WriteLine($"Площадь равна" + plo);
-                Console.WriteLine($"Площадь треугольника, вписанного в окружность равна "+ PloshadTreugSOkrug);
-
-
-               
+                Perimitr( x ,v, c);
+                Ploshad(x, v, c );
+                PloshadOkr(x, v, c );
             }
             else
             {
                 Console.WriteLine("Такого треугольника не существует");
+
             }
             Console.ReadKey();
         }
-        
-                  
+
+        public static void Perimitr(int x, int v,int c)
+        {                    
+                double per = x + c + v;                                                           
+                Console.WriteLine($"Перимитр равен"+ per);                                                                        
+        }
+        public static void Ploshad(int x, int v, int c)
+        {
+            double poluper = (v+c+x)/2;
+            double plo = (poluper * (poluper - x) * (poluper - v) * (poluper - c));
+            double ploshad = Math.Sqrt(plo);
+            Console.WriteLine($"Площадь равна" + ploshad);
+        }
+        public static void PloshadOkr(int x, int v, int c)
+        {
+            double poluper = (v + c + x) / 2;
+            double plo = (poluper * (poluper - x) * (poluper - v) * (poluper - c));
+            double ploshad = Math.Sqrt(plo);
+            double radius = 2 * ploshad / (v + x + c) ;
+            double ploshadokr = x * v * c / 4 * radius;
+            Console.WriteLine($"Площадь треугольника, вписанного в окружность равна " + ploshadokr);
             
+        }
+
+        
+
+
+
         }
     }
 
