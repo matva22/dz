@@ -1,0 +1,7 @@
+C:\Users\матвей\source\repos\kitai\kitai\bin\Debug\kitai.exe.config
+C:\Users\матвей\source\repos\kitai\kitai\bin\Debug\kitai.exe
+C:\Users\матвей\source\repos\kitai\kitai\bin\Debug\kitai.pdb
+C:\Users\матвей\source\repos\kitai\kitai\obj\Debug\kitai.csprojAssemblyReference.cache
+C:\Users\матвей\source\repos\kitai\kitai\obj\Debug\kitai.csproj.CoreCompileInputs.cache
+C:\Users\матвей\source\repos\kitai\kitai\obj\Debug\kitai.exe
+C:\Users\матвей\source\repos\kitai\kitai\obj\Debug\kitai.pdb
