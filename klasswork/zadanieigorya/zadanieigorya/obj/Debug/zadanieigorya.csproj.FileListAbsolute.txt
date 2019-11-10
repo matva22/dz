@@ -1,0 +1,7 @@
+C:\Users\матвей\source\repos\zadanieigorya\zadanieigorya\bin\Debug\zadanieigorya.exe.config
+C:\Users\матвей\source\repos\zadanieigorya\zadanieigorya\bin\Debug\zadanieigorya.exe
+C:\Users\матвей\source\repos\zadanieigorya\zadanieigorya\bin\Debug\zadanieigorya.pdb
+C:\Users\матвей\source\repos\zadanieigorya\zadanieigorya\obj\Debug\zadanieigorya.csprojAssemblyReference.cache
+C:\Users\матвей\source\repos\zadanieigorya\zadanieigorya\obj\Debug\zadanieigorya.csproj.CoreCompileInputs.cache
+C:\Users\матвей\source\repos\zadanieigorya\zadanieigorya\obj\Debug\zadanieigorya.exe
+C:\Users\матвей\source\repos\zadanieigorya\zadanieigorya\obj\Debug\zadanieigorya.pdb
