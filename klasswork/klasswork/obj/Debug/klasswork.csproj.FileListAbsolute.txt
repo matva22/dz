@@ -1,0 +1,7 @@
+C:\Users\матвей\source\repos\klasswork\klasswork\bin\Debug\klasswork.exe.config
+C:\Users\матвей\source\repos\klasswork\klasswork\bin\Debug\klasswork.exe
+C:\Users\матвей\source\repos\klasswork\klasswork\bin\Debug\klasswork.pdb
+C:\Users\матвей\source\repos\klasswork\klasswork\obj\Debug\klasswork.csprojAssemblyReference.cache
+C:\Users\матвей\source\repos\klasswork\klasswork\obj\Debug\klasswork.csproj.CoreCompileInputs.cache
+C:\Users\матвей\source\repos\klasswork\klasswork\obj\Debug\klasswork.exe
+C:\Users\матвей\source\repos\klasswork\klasswork\obj\Debug\klasswork.pdb
